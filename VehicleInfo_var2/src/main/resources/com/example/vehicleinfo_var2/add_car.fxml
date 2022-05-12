@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vehicleinfo_var2.AddCarController">
+   <children>
+      <Label layoutX="24.0" layoutY="25.0" text="Add Car" textFill="#689ff1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addCarIin" layoutX="51.0" layoutY="102.0" prefHeight="35.0" prefWidth="306.0" />
+      <TextField fx:id="addCarNumber" layoutX="51.0" layoutY="176.0" prefHeight="35.0" prefWidth="306.0" />
+      <Label layoutX="53.0" layoutY="84.0" text="Enter the driver's IIN" textFill="#689ff1" />
+      <Label layoutX="51.0" layoutY="159.0" text="Enter the vehicle number" textFill="#689ff1" />
+      <Button fx:id="addCarButton" layoutX="51.0" layoutY="330.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="306.0" style="-fx-background-color: #689ff1;" text="Send" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="41.0" layoutY="628.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #689ff1;" text="Car info" textFill="WHITE" />
+      <Button layoutX="158.0" layoutY="628.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #689ff1;" text="Support" textFill="WHITE" />
+      <Button layoutX="274.0" layoutY="628.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #689ff1;" text="Profile" textFill="WHITE" />
+      <TextField fx:id="addCarName" layoutX="53.0" layoutY="261.0" prefHeight="35.0" prefWidth="306.0" />
+      <Label layoutX="51.0" layoutY="236.0" text="Enter the vehicle name" textFill="#689ff1" />
+      <Button fx:id="logOut" layoutX="51.0" layoutY="404.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="306.0" style="-fx-background-color: #FF0000;" text="Log Out">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

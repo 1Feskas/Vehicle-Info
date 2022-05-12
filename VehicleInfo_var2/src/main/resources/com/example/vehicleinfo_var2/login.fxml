@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #F1F3F5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vehicleinfo_var2.LoginController">
+    <children>
+        <AnchorPane layoutX="25.0" layoutY="60.0" prefHeight="360.0" prefWidth="350.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <PasswordField fx:id="password_field" layoutX="27.0" layoutY="131.0" prefHeight="45.0" prefWidth="300.0" />
+                <TextField fx:id="phone_field" layoutX="27.0" layoutY="49.0" prefHeight="45.0" prefWidth="300.0" />
+                <Button fx:id="authSignInButton" layoutX="52.0" layoutY="217.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #689FF1;" text="Login" textFill="WHITE">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Label layoutX="27.0" layoutY="22.0" text="Phone number" textFill="#689ff1">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="27.0" layoutY="107.0" text="Password" textFill="#689ff1">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="214.0" layoutY="183.0" text="I forgot my password" textFill="#689ff1" />
+                <Button fx:id="loginSignUpButton" layoutX="52.0" layoutY="289.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #689FF1;" text="I do not have an account" textFill="WHITE">
+                    <font>
+                        <Font size="20.0" />
+                    </font></Button>
+            </children></AnchorPane>
+        <Label layoutX="25.0" layoutY="14.0" text="Login" textFill="#689ff1">
+            <font>
+                <Font size="30.0" />
+            </font></Label>
+    </children>
+</AnchorPane>
